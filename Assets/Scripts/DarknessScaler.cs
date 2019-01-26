@@ -5,13 +5,15 @@ using UnityEngine;
 public class DarknessScaler : MonoBehaviour
 {
 
-    public GameObject player;
-    public GameObject home;
+    private GameObject player;
+    private GameObject home;
 
     private Light lt;
 
     void Start()
     {
+        player = GameObject.FindWithTag("Player");
+        home = GameObject.FindWithTag("Home");
         lt = GetComponent<Light>();
     }
 

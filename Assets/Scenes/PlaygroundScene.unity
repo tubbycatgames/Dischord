@@ -126,6 +126,7 @@ GameObject:
   - component: {fileID: 190761092}
   - component: {fileID: 190761089}
   - component: {fileID: 190761094}
+  - component: {fileID: 190761095}
   m_Layer: 8
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -302,6 +303,18 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: -1
   OverrideMaxDistance: -1
+--- !u!114 &190761095
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190761088}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1cb5a89bc9c67ef47b0784856ccd26a8, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &859212120
 GameObject:
   m_ObjectHideFlags: 0
@@ -384,8 +397,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df0b070dba9d26e4590889483b25cdef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  player: {fileID: 1502035707}
-  home: {fileID: 861401995}
 --- !u!1 &861401995
 GameObject:
   m_ObjectHideFlags: 0
@@ -397,7 +408,7 @@ GameObject:
   - component: {fileID: 861401996}
   m_Layer: 0
   m_Name: Home
-  m_TagString: Untagged
+  m_TagString: Home
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -521,7 +532,7 @@ GameObject:
   - component: {fileID: 1502035708}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
