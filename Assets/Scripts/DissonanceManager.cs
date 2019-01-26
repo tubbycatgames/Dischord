@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class DissonanceManager : MonoBehaviour
 {
+
     public float HealthyDistance = 1;
     public float RotationWeight = 1;
     public float DistanceWeight = 1;
@@ -22,6 +23,26 @@ public class DissonanceManager : MonoBehaviour
     public float Rotation
     {
         get { return rotation; }
+    }
+
+    private static DissonanceManager instance;
+    public static DissonanceManager Instance
+    {
+        get
+        {
+            if (instance == null)
+            {
+                instance = GameObject
+                    .FindWithTag("DissonanceManager")
+                    .GetComponent<DissonanceManager>();
+                return instance;
+            }
+            else
+            {
+                return instance;
+            }
+
+        }
     }
 
     private GameObject player;
