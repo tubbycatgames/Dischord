@@ -29,6 +29,5 @@ public class PostProcessingScaler : MonoBehaviour
         grain.size.value = 3 * ds;
 
         vignette.intensity.value = ds;
-
     }
 }
