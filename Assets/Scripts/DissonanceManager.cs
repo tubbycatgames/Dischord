@@ -42,9 +42,9 @@ public class DissonanceManager : MonoBehaviour
         distance = currentDistance;
         var distanceDissonance = GetDistanceDissonance(currentDistance);
 
-        var rotationAngle = GetRotationAngle(player, home);
+        var rotationAngle = 180 - GetRotationAngle(player, home);
         rotation = rotationAngle;
-        var rotationDissonance = (180 - rotationAngle) / 180;
+        var rotationDissonance = rotationAngle / 180;
 
         var weightedDissonance = 
             ((distanceDissonance * DistanceWeight) +
