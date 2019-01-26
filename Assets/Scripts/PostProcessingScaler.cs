@@ -5,8 +5,7 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class PostProcessingScaler : MonoBehaviour
 {
-    private GameObject player;
-    private GameObject home;
+    private DissonanceManager dissonance;
 
     private Grain grain;
     private LensDistortion lensDistortion;
@@ -14,8 +13,9 @@ public class PostProcessingScaler : MonoBehaviour
 
     void Start()
     {
-        player = GameObject.FindWithTag("Player");
-        home = GameObject.FindWithTag("Home");
+        dissonance = GameObject
+            .FindWithTag("DissonanceManager")
+            .GetComponent<DissonanceManager>();
 
         var volume = GetComponent<PostProcessVolume>();
         var profile = volume.profile;
@@ -27,7 +27,14 @@ public class PostProcessingScaler : MonoBehaviour
 
     void Update()
     {
-        var dissonance = DissonanceManager.GetDissonance(player, home);
-        vignette.intensity.value = 1 * dissonance.Score;
+        var ds = dissonance.Score;
+
+        lensDistortion.intensity.value = 50 * ds;
+
+        grain.intensity.value = ds;
+        grain.size.value = 3 * ds;
+
+        vignette.intensity.value = ds;
+
     }
 }

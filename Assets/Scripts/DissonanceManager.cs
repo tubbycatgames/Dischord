@@ -1,45 +1,59 @@
 using UnityEngine;
 
-public class DissonanceManager 
+public class DissonanceManager : MonoBehaviour
 {
-    public static float HealthyDistance = 1;
-    public static float RotationWeight = 1;
-    public static float DistanceWeight = 1;
+    public float HealthyDistance = 1;
+    public float RotationWeight = 1;
+    public float DistanceWeight = 1;
 
-    public struct Dissonance 
+    private float score = 0;
+    public float Score
     {
-        public float Score;
-        public float Distance;
-        public float Rotation;
-
-        public Dissonance(float score, float distance, float rotation)
-        {
-            Score = score;
-            Distance = distance;
-            Rotation = rotation;
-        }
+        get { return score; }
     }
 
-    public static Dissonance GetDissonance(GameObject player, GameObject home)
+    private float distance = 0;
+    public float Distance
+    {
+        get { return distance; }
+    }
+
+    private float rotation = 0;
+    public float Rotation
+    {
+        get { return rotation; }
+    }
+
+    private GameObject player;
+    private GameObject home;
+
+    void Start()
+    {
+        player = GameObject.FindWithTag("Player");
+        home = GameObject.FindWithTag("Home");
+    }
+
+    void Update()
     {
         var currentDistance = Vector3.Distance(
             home.transform.position,
             player.transform.position
         );
-        var distanceDissonance = GetDistanceDissonance(currentDistance);;
+        distance = currentDistance;
+        var distanceDissonance = GetDistanceDissonance(currentDistance);
 
         var rotationAngle = GetRotationAngle(player, home);
+        rotation = rotationAngle;
         var rotationDissonance = (180 - rotationAngle) / 180;
 
         var weightedDissonance = 
             ((distanceDissonance * DistanceWeight) +
              (rotationDissonance * RotationWeight)) /
             (DistanceWeight + RotationWeight);
-
-        return new Dissonance(weightedDissonance, currentDistance, rotationAngle);
+        score = weightedDissonance;
     }
 
-    private static float GetDistanceDissonance(float distance)
+    private float GetDistanceDissonance(float distance)
     {
         var distanceRatio = HealthyDistance / distance;
         var clampedRatio = Mathf.Clamp01(distanceRatio);
@@ -47,7 +61,7 @@ public class DissonanceManager
         return ratioComplement;
     }
 
-    private static float GetRotationAngle(GameObject player, GameObject home)
+    private float GetRotationAngle(GameObject player, GameObject home)
     {
         var forward = player.transform.forward;
         var diff = player.transform.position - home.transform.position;

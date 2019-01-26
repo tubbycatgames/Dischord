@@ -4,22 +4,19 @@ using UnityEngine;
 
 public class DarknessScaler : MonoBehaviour
 {
-
-    private GameObject player;
-    private GameObject home;
-
+    private DissonanceManager dissonance;
     private Light lt;
 
     void Start()
     {
-        player = GameObject.FindWithTag("Player");
-        home = GameObject.FindWithTag("Home");
+        dissonance = GameObject
+            .FindWithTag("DissonanceManager")
+            .GetComponent<DissonanceManager>();
         lt = GetComponent<Light>();
     }
 
     void Update()
     {
-        var dissonance = DissonanceManager.GetDissonance(player, home);
         lt.intensity = 1 - dissonance.Score;
     }
 }
