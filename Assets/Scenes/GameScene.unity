@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657868, g: 0.49641263, b: 0.5748171, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -193,7 +193,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/home_noise
+  Event: event:/environment_ambiences/jungle_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -202,8 +202,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &36277151
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -294,8 +294,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &101644061 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -314,7 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/bird_sickle_noise
+  Event: event:/environment_ambiences/starting_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -323,8 +323,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 4.9999995
+  OverrideMaxDistance: 200
 --- !u!1001 &108062188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -557,8 +557,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &142280814
 GameObject:
   m_ObjectHideFlags: 0
@@ -728,8 +728,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &243875656
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -820,8 +820,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &283330804 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -849,8 +849,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &305056459 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 20499f769712345bc91d1d8ee7e78b59,
@@ -878,8 +878,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &326009341 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 20499f769712345bc91d1d8ee7e78b59,
@@ -907,8 +907,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &334468491
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -990,7 +990,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/home_noise
+  Event: event:/environment_ambiences/jungle_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -999,8 +999,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &343507310 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -1019,7 +1019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/bird_sickle_noise
+  Event: event:/environment_ambiences/starting_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -1028,8 +1028,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 4.9999995
+  OverrideMaxDistance: 200
 --- !u!1001 &351455739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1195,8 +1195,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &399359568
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1299,8 +1299,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &465193582
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1403,8 +1403,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &467209146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1558,8 +1558,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &525050739
 GameObject:
   m_ObjectHideFlags: 0
@@ -1699,8 +1699,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &580012853
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1803,8 +1803,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &584714954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/bird_sickle_noise
+  Event: event:/environment_ambiences/starting_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -1832,8 +1832,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 4.9999995
+  OverrideMaxDistance: 200
 --- !u!1 &596440320 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -1861,8 +1861,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &641124694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1953,8 +1953,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &652823424
 GameObject:
   m_ObjectHideFlags: 0
@@ -2061,8 +2061,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &662128222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2216,8 +2216,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &784192355
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2299,7 +2299,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/home_noise
+  Event: event:/environment_ambiences/jungle_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -2308,8 +2308,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &784431386
 GameObject:
   m_ObjectHideFlags: 0
@@ -2470,7 +2470,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/home_noise
+  Event: event:/environment_ambiences/jungle_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -2479,8 +2479,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &800673796 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -2508,8 +2508,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &819347803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2655,8 +2655,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &837978844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2747,8 +2747,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &881342465 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -2776,8 +2776,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &887482093
 GameObject:
   m_ObjectHideFlags: 0
@@ -2848,31 +2848,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
---- !u!114 &893044227
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 893044224}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/bird_sickle_noise
-  PlayEvent: 1
-  StopEvent: 2
-  CollisionTag: 
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &893989080
 GameObject:
   m_ObjectHideFlags: 0
@@ -3042,8 +3019,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &944821840
 GameObject:
   m_ObjectHideFlags: 0
@@ -3186,8 +3163,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &1009881599
 GameObject:
   m_ObjectHideFlags: 0
@@ -7913,8 +7890,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &1075370026 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 20499f769712345bc91d1d8ee7e78b59,
@@ -7933,7 +7910,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/home_noise
+  Event: event:/environment_ambiences/jungle_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -7942,8 +7919,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &1078774555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -7962,7 +7939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/bird_sickle_noise
+  Event: event:/environment_ambiences/starting_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -7971,8 +7948,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 4.9999995
+  OverrideMaxDistance: 200
 --- !u!1001 &1137237368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8315,8 +8292,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1275181537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8549,8 +8526,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1349331297
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8641,8 +8618,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &1357777400
 GameObject:
   m_ObjectHideFlags: 0
@@ -9012,8 +8989,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1403781185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9183,8 +9160,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &1482387980 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -9203,7 +9180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/bird_sickle_noise
+  Event: event:/environment_ambiences/starting_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -9212,8 +9189,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 4.9999995
+  OverrideMaxDistance: 200
 --- !u!1001 &1500621445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9358,7 +9335,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/home_noise
+  Event: event:/environment_ambiences/jungle_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -9367,8 +9344,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1538014264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9459,8 +9436,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1546877900
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9677,8 +9654,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1594639896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9769,8 +9746,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &1612389086 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 38c82e44fa899422bbeaaafe3a64f372,
@@ -9798,8 +9775,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &1660084206
 GameObject:
   m_ObjectHideFlags: 0
@@ -10062,8 +10039,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &1717899594 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -10091,8 +10068,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1731875775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10183,8 +10160,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1773564747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10318,8 +10295,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &1801172702
 GameObject:
   m_ObjectHideFlags: 0
@@ -10431,8 +10408,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1859730010
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10523,8 +10500,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1860722455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10615,8 +10592,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1 &1867835382 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: 20499f769712345bc91d1d8ee7e78b59,
@@ -10644,8 +10621,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1888761710
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10736,8 +10713,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &1927502406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -10879,8 +10856,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &2022059891
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11188,8 +11165,8 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
 --- !u!1001 &2098919567
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11619,5 +11596,5 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 1
-  OverrideMaxDistance: 20
+  OverrideMinDistance: 7
+  OverrideMaxDistance: 200
