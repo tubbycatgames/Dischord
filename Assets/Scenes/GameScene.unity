@@ -112,6 +112,35 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 23800000, guid: d245abd1fdace024cbb473fb62ab3847, type: 2}
+--- !u!1 &101644061 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 351455739}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &101644062
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 101644061}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &108062188
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -333,6 +362,64 @@ Transform:
   m_Father: {fileID: 1950038242}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &283330804 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 662128222}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &283330805
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 283330804}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &343507310 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 467209146}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &343507311
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 343507310}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &351455739
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -704,6 +791,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 528335011}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &584714954 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2098919567}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &584714955
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 584714954}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &596440320 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2058547590}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &596440321
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 596440320}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &641124694
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -767,6 +912,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 641124694}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &645857643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2124971843}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &645857644
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 645857643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &652823424
 GameObject:
   m_ObjectHideFlags: 0
@@ -1051,6 +1225,35 @@ Transform:
   m_Father: {fileID: 1950038242}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &800673796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 528335011}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &800673797
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 800673796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &819347803
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1224,6 +1427,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 837978844}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &865821813 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1690210809}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &865821814
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 865821813}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &881342465 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1275181537}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &881342466
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 881342465}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &887482093
 GameObject:
   m_ObjectHideFlags: 0
@@ -1261,6 +1522,58 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &893044224 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1403781185}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &893044225
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893044224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: 
+  PlayEvent: 0
+  StopEvent: 0
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: -1
+  OverrideMaxDistance: -1
+--- !u!114 &893044227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 893044224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &893989080
 GameObject:
   m_ObjectHideFlags: 0
@@ -6216,6 +6529,35 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &1078774555 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 663660509}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1078774556
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1078774555}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1137237368
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7239,6 +7581,64 @@ Transform:
   m_Father: {fileID: 1950038242}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1474102773 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1500621445}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1474102774
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1474102773}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1482387980 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1773564747}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1482387981
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1482387980}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1500621445
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7491,6 +7891,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1553883014}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1589252938 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1137237368}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1589252939
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1589252938}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1594639896
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7726,6 +8155,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1690210809}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1717899594 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1594639896}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1717899595
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1717899594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1731875775
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8027,6 +8485,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1888761710}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1919394468 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 1674367324}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1919394469
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1919394468}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1927502406
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8129,6 +8616,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1993521733 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
+    type: 3}
+  m_PrefabInstance: {fileID: 2107726641}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1993521734
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1993521733}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &2022059891
 PrefabInstance:
   m_ObjectHideFlags: 0
