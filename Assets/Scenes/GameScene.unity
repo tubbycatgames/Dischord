@@ -314,7 +314,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/starting_noise
+  Event: event:/environment_ambiences/bird_sickle_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -323,7 +323,7 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 4.9999995
+  OverrideMinDistance: 7
   OverrideMaxDistance: 200
 --- !u!1001 &108062188
 PrefabInstance:
@@ -1019,7 +1019,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/starting_noise
+  Event: event:/environment_ambiences/bird_sickle_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -1028,7 +1028,7 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 4.9999995
+  OverrideMinDistance: 7
   OverrideMaxDistance: 200
 --- !u!1001 &351455739
 PrefabInstance:
@@ -1823,7 +1823,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/starting_noise
+  Event: event:/environment_ambiences/bird_sickle_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -1832,7 +1832,7 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 4.9999995
+  OverrideMinDistance: 7
   OverrideMaxDistance: 200
 --- !u!1 &596440320 stripped
 GameObject:
@@ -7939,7 +7939,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/starting_noise
+  Event: event:/environment_ambiences/bird_sickle_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -7948,7 +7948,7 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 4.9999995
+  OverrideMinDistance: 7
   OverrideMaxDistance: 200
 --- !u!1001 &1137237368
 PrefabInstance:
@@ -9180,7 +9180,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: event:/environment_ambiences/starting_noise
+  Event: event:/environment_ambiences/bird_sickle_noise
   PlayEvent: 1
   StopEvent: 2
   CollisionTag: 
@@ -9189,7 +9189,7 @@ MonoBehaviour:
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: 4.9999995
+  OverrideMinDistance: 7
   OverrideMaxDistance: 200
 --- !u!1001 &1500621445
 PrefabInstance:
