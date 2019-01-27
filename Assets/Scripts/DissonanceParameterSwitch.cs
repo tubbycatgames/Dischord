@@ -14,8 +14,6 @@ public class DissonanceParameterSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        emitter.SetParameter("dissonance", DissonanceManager.Instance.Distance);
-        Debug.Log(DissonanceManager.Instance.Distance);
-
+        emitter.SetParameter("dissonance", DissonanceManager.Instance.Score);
     }
 }
