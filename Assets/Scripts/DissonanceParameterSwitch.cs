@@ -23,6 +23,7 @@ public class DissonanceParameterSwitch : MonoBehaviour
             Time.deltaTime
         );
         emitter.SetParameter("dissonance", currentDissonance);
-        emitter.SetParameter("is_home", GameEndManager.isHome);
+
+        emitter.SetParameter("isHome", GameEndManager.isHome);
     }
 }
