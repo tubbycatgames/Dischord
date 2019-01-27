@@ -69,7 +69,7 @@ public class DissonanceManager : MonoBehaviour
         NavMesh.SamplePosition(
             home.transform.position,
             out homehit,
-            10,
+            50,
             NavMesh.AllAreas
         );
 

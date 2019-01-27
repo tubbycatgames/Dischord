@@ -1,0 +1,52 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+
+public class GameEndManager : MonoBehaviour
+{
+    public float transitionDuration = 5;
+    public float goalDistance = 3;
+
+    public CanvasGroup panel;
+  
+    public static int isHome = 0;
+
+    private GameObject player;
+    private float transitionStart;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+      player = GameObject.FindWithTag("Player");
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+      var distanceFromHome = Vector3.Distance(transform.position, player.transform.position);
+      if (isHome == 1)
+      {
+        var transitionEnd = transitionStart + transitionDuration;
+        panel.alpha = Mathf.Lerp(
+          0f, 
+          1f,
+          Time.time / transitionEnd
+        );
+        if ( Time.time > transitionEnd)
+        {
+          SceneManager.LoadScene("CreditsScene");
+        }
+
+      }
+      else
+      {
+        if (distanceFromHome < goalDistance)
+        {
+          isHome = 1;
+          transitionStart = Time.time;
+        }
+      }
+    }
+}
