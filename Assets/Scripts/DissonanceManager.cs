@@ -1,4 +1,5 @@
 using UnityEngine;
+using UnityEngine.AI;
 
 public class DissonanceManager : MonoBehaviour
 {
@@ -56,22 +57,58 @@ public class DissonanceManager : MonoBehaviour
 
     void Update()
     {
-        var currentDistance = Vector3.Distance(
+        var playerHit = new NavMeshHit();
+        NavMesh.SamplePosition(
+            player.transform.position, 
+            out playerHit,
+            10, 
+            NavMesh.AllAreas);
+
+        var homehit = new NavMeshHit();
+        NavMesh.SamplePosition(
             home.transform.position,
-            player.transform.position
+            out homehit,
+            10,
+            NavMesh.AllAreas
         );
-        distance = currentDistance;
-        var distanceDissonance = GetDistanceDissonance(currentDistance);
 
-        var rotationAngle = 180 - GetRotationAngle(player, home);
-        rotation = rotationAngle;
-        var rotationDissonance = rotationAngle / 180;
+        var path = new NavMeshPath();
+        var foundPath = NavMesh.CalculatePath(
+            playerHit.position,
+            homehit.position,
+            NavMesh.AllAreas,
+            path
+        );
 
-        var weightedDissonance = 
-            ((distanceDissonance * DistanceWeight) +
-             (rotationDissonance * RotationWeight)) /
-            (DistanceWeight + RotationWeight);
-        score = weightedDissonance;
+        if (foundPath)
+        {
+            var corners = path.corners;
+
+            var totalDistance = 0.0f;
+            for (var i = 0; i < corners.Length - 1; i++)
+            {
+                totalDistance += Vector3.Distance(
+                    corners[i],
+                    corners[i+1]
+                );
+            }
+            distance = totalDistance;
+            var distanceDissonance = GetDistanceDissonance(totalDistance);
+
+            var rotationAngle = 180 - GetRotationAngle(corners[1]);
+            rotation = rotationAngle;
+            var rotationDissonance = rotationAngle / 180;
+
+            var weightedDissonance = 
+                ((distanceDissonance * DistanceWeight) +
+                 (rotationDissonance * RotationWeight)) /
+                (DistanceWeight + RotationWeight);
+            score = weightedDissonance;   
+        }
+        else 
+        {
+            Debug.Log("Not on Mesh");
+        }
     }
 
     private float GetDistanceDissonance(float distance)
@@ -82,10 +119,10 @@ public class DissonanceManager : MonoBehaviour
         return ratioComplement;
     }
 
-    private float GetRotationAngle(GameObject player, GameObject home)
+    private float GetRotationAngle(Vector3 waypoint)
     {
         var forward = player.transform.forward;
-        var diff = player.transform.position - home.transform.position;
+        var diff = player.transform.position - waypoint;
         var currentAngle = Vector3.Angle(forward, diff);
         return currentAngle;
     }
