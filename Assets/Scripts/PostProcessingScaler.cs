@@ -5,6 +5,11 @@ using UnityEngine.Rendering.PostProcessing;
 
 public class PostProcessingScaler : MonoBehaviour
 {
+    public float LensDistortionMax = 50f;
+    public float GrainMax = 1;
+    public float VignetteMax = 1;
+    public Color VignetteColor = Color.black;
+
     private Grain grain;
     private LensDistortion lensDistortion;
     private Vignette vignette;
@@ -26,21 +31,23 @@ public class PostProcessingScaler : MonoBehaviour
 
         lensDistortion.intensity.value = Mathf.Lerp(
             lensDistortion.intensity.value, 
-            50 * ds, 
+            LensDistortionMax * ds, 
             dt);
 
         grain.intensity.value = Mathf.Lerp(
             grain.intensity.value, 
-            ds,
+            GrainMax * ds,
             dt);
         grain.size.value = Mathf.Lerp(
             grain.size.value,
             3 * ds,
             dt);
 
+        vignette.color.value = VignetteColor;
+
         vignette.intensity.value = Mathf.Lerp(
             vignette.intensity.value,
-            ds,
+            VignetteMax * ds,
             dt);
     }
 }
