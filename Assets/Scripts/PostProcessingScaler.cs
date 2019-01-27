@@ -22,12 +22,25 @@ public class PostProcessingScaler : MonoBehaviour
     void Update()
     {
         var ds = DissonanceManager.Instance.Score;
+        var dt = Time.deltaTime;
 
-        lensDistortion.intensity.value = 50 * ds;
+        lensDistortion.intensity.value = Mathf.Lerp(
+            lensDistortion.intensity.value, 
+            50 * ds, 
+            dt);
 
-        grain.intensity.value = ds;
-        grain.size.value = 3 * ds;
+        grain.intensity.value = Mathf.Lerp(
+            grain.intensity.value, 
+            ds,
+            dt);
+        grain.size.value = Mathf.Lerp(
+            grain.size.value,
+            3 * ds,
+            dt);
 
-        vignette.intensity.value = ds;
+        vignette.intensity.value = Mathf.Lerp(
+            vignette.intensity.value,
+            ds,
+            dt);
     }
 }

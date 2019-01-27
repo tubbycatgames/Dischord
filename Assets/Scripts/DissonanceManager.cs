@@ -62,7 +62,8 @@ public class DissonanceManager : MonoBehaviour
             player.transform.position, 
             out playerHit,
             10, 
-            NavMesh.AllAreas);
+            NavMesh.AllAreas
+        );
 
         var homehit = new NavMeshHit();
         NavMesh.SamplePosition(
