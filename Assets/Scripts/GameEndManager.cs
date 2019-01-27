@@ -8,6 +8,9 @@ public class GameEndManager : MonoBehaviour
 {
     public float transitionDuration = 5;
     public float goalDistance = 3;
+
+    public CanvasGroup panel;
+  
     public static int isHome = 0;
 
     private GameObject player;
@@ -23,11 +26,15 @@ public class GameEndManager : MonoBehaviour
     void Update()
     {
       var distanceFromHome = Vector3.Distance(transform.position, player.transform.position);
-      Debug.Log(distanceFromHome);
-
       if (isHome == 1)
       {
-        if (transitionStart + transitionDuration > Time.deltaTime)
+        var transitionEnd = transitionStart + transitionDuration;
+        panel.alpha = Mathf.Lerp(
+          0f, 
+          1f,
+          Time.time / transitionEnd
+        );
+        if ( Time.time > transitionEnd)
         {
           SceneManager.LoadScene("CreditsScene");
         }
@@ -38,13 +45,8 @@ public class GameEndManager : MonoBehaviour
         if (distanceFromHome < goalDistance)
         {
           isHome = 1;
-          transitionStart = Time.deltaTime;
+          transitionStart = Time.time;
         }
       }
-
-      Debug.Log(isHome);
-
-      // scene transitions can be found in emergency ejector
-
     }
 }

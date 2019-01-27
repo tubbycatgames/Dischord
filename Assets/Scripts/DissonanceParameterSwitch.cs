@@ -17,12 +17,12 @@ public class DissonanceParameterSwitch : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-
         currentDissonance = Mathf.Lerp(
             currentDissonance,
             DissonanceManager.Instance.Score,
             Time.deltaTime
         );
         emitter.SetParameter("dissonance", currentDissonance);
+        emitter.SetParameter("is_home", GameEndManager.isHome);
     }
 }
