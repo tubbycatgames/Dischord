@@ -7,6 +7,7 @@ public class CharacterMover : MonoBehaviour
     public float speed = 0.0f;
     public float rotateSpeed = 0.0f;
     public float hoverHeight = 0.0f;
+    public float heightAdjustFactor = 1.0f;
 
     private float yaw = 0.0f;
 
@@ -34,7 +35,7 @@ public class CharacterMover : MonoBehaviour
 
         var heightAdjustment = new Vector3(
             position.x,
-            Mathf.Lerp(position.y, hit.point.y + hoverHeight, Time.deltaTime),
+            Mathf.Lerp(position.y, hit.point.y + hoverHeight, Time.deltaTime * heightAdjustFactor),
             position.z
         );
         transform.position = heightAdjustment;

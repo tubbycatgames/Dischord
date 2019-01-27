@@ -7497,7 +7497,6 @@ GameObject:
   - component: {fileID: 1357777406}
   - component: {fileID: 1357777405}
   - component: {fileID: 1357777404}
-  - component: {fileID: 1357777403}
   - component: {fileID: 1357777402}
   m_Layer: 8
   m_Name: Main Camera
@@ -7532,29 +7531,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb5a89bc9c67ef47b0784856ccd26a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
---- !u!114 &1357777403
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1357777400}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
-  CollisionTag: 
-  AllowFadeout: 1
-  TriggerOnce: 0
-  Preload: 0
-  Params: []
-  OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
 --- !u!114 &1357777404
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -9350,6 +9326,7 @@ MonoBehaviour:
   speed: 7
   rotateSpeed: 3
   hoverHeight: 3
+  heightAdjustFactor: 2
 --- !u!143 &2035698876
 CharacterController:
   m_ObjectHideFlags: 0
