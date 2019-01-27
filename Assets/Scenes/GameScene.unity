@@ -15,9 +15,9 @@ RenderSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 9
   m_Fog: 0
-  m_FogColor: {r: 0.4488697, g: 0.47068676, b: 0.7264151, a: 1}
+  m_FogColor: {r: 0.5943396, g: 0.46573362, b: 0.46257564, a: 1}
   m_FogMode: 3
-  m_FogDensity: 0.01
+  m_FogDensity: 0.015
   m_LinearFogStart: 0
   m_LinearFogEnd: 300
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657826, g: 0.49641263, b: 0.57481676, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -7531,7 +7531,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb5a89bc9c67ef47b0784856ccd26a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  LensDistortionMax: 50
+  LensDistortionMax: 60
   GrainMax: 1
   VignetteMax: 1
   VignetteColor: {r: 0, g: 0, b: 0, a: 1}
@@ -9341,8 +9341,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   speed: 7
-  rotateSpeed: 3
-  hoverHeight: 3
+  rotateSpeed: 3.5
+  hoverHeight: 4
   heightAdjustFactor: 2
 --- !u!143 &2035698876
 CharacterController:
