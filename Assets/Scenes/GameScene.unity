@@ -391,6 +391,64 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 1
   OverrideMaxDistance: 20
+--- !u!1 &305056459 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 20499f769712345bc91d1d8ee7e78b59,
+    type: 3}
+  m_PrefabInstance: {fileID: 2022059891}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &305056462
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 305056459}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/home_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &326009341 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 20499f769712345bc91d1d8ee7e78b59,
+    type: 3}
+  m_PrefabInstance: {fileID: 2129841645}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &326009344
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 326009341}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/home_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &343507310 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -558,6 +616,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 399359568}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &457818943 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 73010a8cf147c4548b774e374b0a0fe5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1205415948}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &457818946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 457818943}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &467209146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -684,6 +771,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 483324388}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &512169326 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 73010a8cf147c4548b774e374b0a0fe5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1287570933}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &512169329
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 512169326}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &525050739
 GameObject:
   m_ObjectHideFlags: 0
@@ -791,6 +907,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 528335011}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &560391461 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 38c82e44fa899422bbeaaafe3a64f372,
+    type: 3}
+  m_PrefabInstance: {fileID: 837978844}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &560391464
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 560391461}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &584714954 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -1020,6 +1165,35 @@ Transform:
   m_Father: {fileID: 1950038242}
   m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &654438370 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 73010a8cf147c4548b774e374b0a0fe5,
+    type: 3}
+  m_PrefabInstance: {fileID: 1553086413}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &654438373
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 654438370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &662128222
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1146,6 +1320,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 663660509}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &731654570 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 910fa8d89a37a4dd681eb8013c6efceb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1546877900}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &731654573
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 731654570}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &784431386
 GameObject:
   m_ObjectHideFlags: 0
@@ -1364,6 +1567,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &828875183 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: cb7b7dba5b1e44d3f88245c07ccc7f6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 1182377494}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &828875186
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 828875183}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &837978844
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1540,17 +1772,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Event: 
-  PlayEvent: 0
-  StopEvent: 0
+  Event: event:/environment_ambiences/bird_sickle_noise
+  PlayEvent: 1
+  StopEvent: 2
   CollisionTag: 
   AllowFadeout: 1
   TriggerOnce: 0
   Preload: 0
   Params: []
   OverrideAttenuation: 0
-  OverrideMinDistance: -1
-  OverrideMaxDistance: -1
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!114 &893044227
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1716,6 +1948,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 924854015}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &938322573 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 910fa8d89a37a4dd681eb8013c6efceb,
+    type: 3}
+  m_PrefabInstance: {fileID: 483324388}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &938322576
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 938322573}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &944821840
 GameObject:
   m_ObjectHideFlags: 0
@@ -1831,6 +2092,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &960702209 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 13a98edb7e8f84dd4b543652d0fa43d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 2127462575}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &960702212
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 960702209}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1009881599
 GameObject:
   m_ObjectHideFlags: 0
@@ -6529,6 +6819,64 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     vectorLabel1_3: W
+--- !u!1 &1060076416 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 20499f769712345bc91d1d8ee7e78b59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1927502406}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1060076419
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1060076416}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/home_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1075370026 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 20499f769712345bc91d1d8ee7e78b59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1220469175}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1075370029
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1075370026}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/home_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1078774555 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100000, guid: b9bca91358bf14193995fc84465d49d3,
@@ -6873,6 +7221,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1220469175}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1268059972 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: cb7b7dba5b1e44d3f88245c07ccc7f6b,
+    type: 3}
+  m_PrefabInstance: {fileID: 108062188}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1268059975
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1268059972}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1275181537
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7078,6 +7455,35 @@ Transform:
   m_Father: {fileID: 1950038242}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1310753994 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 2a59a1f6ba96c48b4b62ebfd95e74fa7,
+    type: 3}
+  m_PrefabInstance: {fileID: 1731875775}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1310753997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1310753994}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1357777400
 GameObject:
   m_ObjectHideFlags: 0
@@ -7439,6 +7845,35 @@ Transform:
   m_Father: {fileID: 1950038242}
   m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1388947743 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 13a98edb7e8f84dd4b543652d0fa43d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1215590389}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1388947746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1388947743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1403781185
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7983,6 +8418,64 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1594639896}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1597705254 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 910fa8d89a37a4dd681eb8013c6efceb,
+    type: 3}
+  m_PrefabInstance: {fileID: 924854015}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1597705257
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1597705254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1612389086 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 38c82e44fa899422bbeaaafe3a64f372,
+    type: 3}
+  m_PrefabInstance: {fileID: 399359568}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1612389089
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1612389086}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1660084206
 GameObject:
   m_ObjectHideFlags: 0
@@ -8247,6 +8740,35 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1731875775}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1761054883 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 20499f769712345bc91d1d8ee7e78b59,
+    type: 3}
+  m_PrefabInstance: {fileID: 819347803}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1761054886
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1761054883}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/home_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1773564747
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -8353,6 +8875,35 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &1800268255 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 20499f769712345bc91d1d8ee7e78b59,
+    type: 3}
+  m_PrefabInstance: {fileID: 1553883014}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1800268258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1800268255}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/home_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1 &1801172702
 GameObject:
   m_ObjectHideFlags: 0
@@ -8422,6 +8973,64 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 50, y: -30, z: 0}
+--- !u!1 &1851335493 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 13a98edb7e8f84dd4b543652d0fa43d1,
+    type: 3}
+  m_PrefabInstance: {fileID: 1888761710}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1851335496
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1851335493}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/frozen_fire_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
+--- !u!1 &1867835382 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: 20499f769712345bc91d1d8ee7e78b59,
+    type: 3}
+  m_PrefabInstance: {fileID: 641124694}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1867835385
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1867835382}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9a6610d2e704f1648819acc8d7460285, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Event: event:/environment_ambiences/home_noise
+  PlayEvent: 1
+  StopEvent: 2
+  CollisionTag: 
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  Params: []
+  OverrideAttenuation: 0
+  OverrideMinDistance: 1
+  OverrideMaxDistance: 20
 --- !u!1001 &1888761710
 PrefabInstance:
   m_ObjectHideFlags: 0
