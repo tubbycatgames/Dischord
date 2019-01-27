@@ -17,10 +17,11 @@ public class DarknessScaler : MonoBehaviour
 
     void Update()
     {
-        lt.intensity = Mathf.Lerp(
-            lt.intensity, 
-            1 - DissonanceManager.Instance.Score,
-            Time.deltaTime
-        );
+        // var newIntensity = Mathf.Min(MinSourceLight, 1 - DissonanceManager.Instance.Score);
+        // lt.intensity = Mathf.Lerp(
+        //     lt.intensity,
+        //     newIntensity,
+        //     Time.deltaTime
+        // );
     }
 }
