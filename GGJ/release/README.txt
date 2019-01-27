@@ -1,0 +1,1 @@
+This game was designed with Windows, OS X, and Linux in mind. You can run the game by simply selecting the correct "Dischord" executable for your operating system.
