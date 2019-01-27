@@ -8669,7 +8669,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BloomMax: 10
   LensDistortionMax: 65
-  GrainMax: 1
+  GrainMax: 0.5
   VignetteMax: 0.6
   VignetteColor: {r: 0, g: 0, b: 0, a: 1}
 --- !u!114 &1357777404
@@ -9807,7 +9807,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   HealthyDistance: 2
-  RotationWeight: 1
+  RotationWeight: 2
   DistanceWeight: 1
 --- !u!4 &1660084208
 Transform:
