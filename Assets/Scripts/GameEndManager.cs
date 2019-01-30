@@ -28,17 +28,18 @@ public class GameEndManager : MonoBehaviour
       var distanceFromHome = Vector3.Distance(transform.position, player.transform.position);
       if (isHome == 1)
       {
-        var transitionEnd = transitionStart + transitionDuration;
+        var transitionProgress = (Time.time - transitionStart) / transitionDuration;
         panel.alpha = Mathf.Lerp(
           0f, 
           1f,
-          Time.time / transitionEnd
+          transitionProgress
         );
+
+        var transitionEnd = transitionStart + transitionDuration;
         if ( Time.time > transitionEnd)
         {
           SceneManager.LoadScene("CreditsScene");
         }
-
       }
       else
       {
