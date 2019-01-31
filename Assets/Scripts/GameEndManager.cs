@@ -25,7 +25,6 @@ public class GameEndManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-      var distanceFromHome = Vector3.Distance(transform.position, player.transform.position);
       if (isHome == 1)
       {
         var transitionProgress = (Time.time - transitionStart) / transitionDuration;
@@ -43,6 +42,7 @@ public class GameEndManager : MonoBehaviour
       }
       else
       {
+        var distanceFromHome = Vector3.Distance(transform.position, player.transform.position);
         if (distanceFromHome < goalDistance)
         {
           isHome = 1;
