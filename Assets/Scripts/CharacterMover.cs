@@ -10,12 +10,15 @@ public class CharacterMover : MonoBehaviour
     public float heightAdjustFactor = 1.0f;
 
     private float yaw = 0.0f;
+    private float pitch = 0.0f;
 
     private CharacterController controller;
+    private GameObject mainCamera;
 
     void Start()
     {
         controller = GetComponent<CharacterController>();
+        mainCamera = GameObject.FindWithTag("MainCamera");
     }
 
     void Update()
@@ -42,5 +45,8 @@ public class CharacterMover : MonoBehaviour
 
         yaw += rotateSpeed * Input.GetAxis("Mouse X");
         transform.eulerAngles = new Vector3(0.0f, yaw, 0.0f);
+
+        pitch += rotateSpeed * Input.GetAxis("Mouse Y");
+        mainCamera.transform.eulerAngles = new Vector3(-pitch, yaw, 0.0f);
     }
 }
