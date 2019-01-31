@@ -6,20 +6,22 @@ public class CreditPhaseIn : MonoBehaviour
 {
 
     public float FadeDuration;
-    public CanvasGroup Panel;
+
+    private CanvasGroup cg;
 
     // Start is called before the first frame update
     void Start()
     {
-        Panel.alpha = 0;
+        cg = GetComponent<CanvasGroup>();
+        cg.alpha = 0;
     }
 
     // Update is called once per frame
     void Update()
     {
-        Panel.alpha = Mathf.Lerp(
+        cg.alpha = Mathf.Lerp(
             0f,
             1f,
-            Time.time / FadeDuration);
+            Time.timeSinceLevelLoad / FadeDuration);
     }
 }

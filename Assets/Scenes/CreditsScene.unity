@@ -446,7 +446,6 @@ GameObject:
   - component: {fileID: 153549749}
   - component: {fileID: 153549748}
   - component: {fileID: 153549751}
-  - component: {fileID: 153549752}
   m_Layer: 0
   m_Name: Main Camera
   m_TagString: MainCamera
@@ -546,20 +545,6 @@ MonoBehaviour:
   OverrideAttenuation: 0
   OverrideMinDistance: 0
   OverrideMaxDistance: 0
---- !u!114 &153549752
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 153549747}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 8e2558a44e6a7a84aaeb0c367539247a, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  FadeDuration: 5
-  Panel: {fileID: 904231312}
 --- !u!1 &178809051
 GameObject:
   m_ObjectHideFlags: 0
@@ -1517,6 +1502,7 @@ GameObject:
   - component: {fileID: 904231309}
   - component: {fileID: 904231308}
   - component: {fileID: 904231312}
+  - component: {fileID: 904231313}
   m_Layer: 5
   m_Name: Canvas
   m_TagString: Untagged
@@ -1616,6 +1602,19 @@ CanvasGroup:
   m_Interactable: 1
   m_BlocksRaycasts: 1
   m_IgnoreParentGroups: 0
+--- !u!114 &904231313
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 904231307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8e2558a44e6a7a84aaeb0c367539247a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  FadeDuration: 5
 --- !u!1 &947945003
 GameObject:
   m_ObjectHideFlags: 0
