@@ -3616,8 +3616,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 41133263e119840e691834e684b86c1d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  transitionDuration: 5
-  goalDistance: 80
+  transitionDuration: 8
+  goalDistance: 90
   panel: {fileID: 1352141214}
 --- !u!65 &944821842
 BoxCollider:
@@ -4789,7 +4789,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 1cb5a89bc9c67ef47b0784856ccd26a8, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  BloomMax: 10
+  BloomMax: 15
   LensDistortionMax: 65
   GrainMax: 0.5
   VignetteMax: 0.6
